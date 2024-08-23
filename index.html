@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo Práctico N° 4: Tablas</title>
+</head>
+<body>
+    <h1>Trabajo Práctico N° 4: Tablas</h1>
+    <h2>Por: Emanuel Olivera</h2>
+    <h3>1. ¿Cuál es la etiqueta principal utilizada para crear una tabla en HTML?</h3>
+    <p>La etiqueta <strong>&lt;table&gt;</strong> es la utlizada para crear una tabla en HTML.</p>
+    <img src="Table.png" alt="" width="1000">
+    <h3>2. ¿Qué etiqueta se utiliza para definir una fila en una tabla?</h3>
+    <p>La etiqueta <strong>&lt;tr&gt;</strong> (table row) es la utilizada para definir una fila en una tabla.</p>
+    <h3>3. ¿Cuál es la etiqueta utilizada para crear una celda de encabezado en una tabla?</h3>
+    <p>La etiqueta <strong>&lt;th&gt;</strong> (table heading) es la utilizada para crear celdas de encabezado en una tabla, distinguiéndolas de los demás datos. </p>
+    <img src="Tablas.png" alt="" width="1000">
+    <h3>4. ¿Cuál es la etiqueta utilizada para crear una celda de datos en una tabla?</h3>
+    <p>La etiqueta <strong>&lt;td&gt;</strong> (table data) es la utilizada para definir la celda de una tabla que contiene datos.</p>
+    <h3>5. ¿Qué atributo se utiliza para especificar cuántas columnas debe abarcar una celda?</h3>
+    <p>El atributo <strong>colspan</strong> se utiliza para expandir una celda y que esta cubra varias columnas.</p>
+    <img src="Colspan.png" alt="" width="1000">
+    <h3>6. ¿Qué atributo se utiliza para especificar cuántas filas debe abarcar una celda?</h3>
+    <p>El atributp <strong>rowspan</strong> se utiliza para expandir una celda y que esta cubra varias filas.</p>
+    <img src="Rowspan.png" alt="" width="1000">
+    <h3>7. Si necesitamos crear una tabla con 10 filas ¿qué etiqueta y cuántas veces se debe utilizar para definir las filas?</h3>
+    <p>Para hacer eso, necesitaremos utilizar la etiqueta <strong>&lt;tr&gt;</strong> 10 veces, y llenarlas con contenido utilizando la etiqueta <strong>&lt;td&gt;</strong> si queremos visualizar 10 filas en la tabla.</p>
+    <table>
+        <tr>
+            <td>A</td>
+        </tr>
+        <tr>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td>C</td>
+        </tr>
+        <tr>
+            <td>D</td>
+        </tr>
+        <tr>
+            <td>E</td>
+        </tr>
+        <tr>
+            <td>F</td>
+        </tr>
+        <tr>
+            <td>G</td>
+        </tr>
+        <tr>
+            <td>H</td>
+        </tr>
+        <tr>
+            <td>I</td>
+        </tr>
+        <tr>
+            <td>J</td>
+        </tr>
+    </table>
+    <h2>Práctica</h2>
+    <h3>Realizar los siguientes ejemplos en tablas, teniendo en cuenta:</h3>
+    <ul>
+        <li>Todas las tablas están en la misma página</li>
+        <li>Cada tabla debe estar en una sección especial con un identificador</li>
+        <li>Realizar un header a la página con título “TABLAS”</li>
+    </ul>
+    <h3>TABLA 1</h3>
+    <table>
+        <tr>
+            <th colspan="4">Tipos de Flores</th>
+        </tr>
+        <tr>
+            <th>Nombre</th>
+            <th>Locación</th>
+            <th>Tipo</th>
+            <th>Imagen</th>
+        </tr>
+        <tr>
+            <td><strong>Rosa</strong></td>
+            <td>
+                <ul>
+                    <li>Asia</li>
+                    <li>Europa</li>
+                    <li>Norteamérica</li>
+                </ul>
+            </td>
+            <td>Arbustos Espinosos</td>
+            <td><img src="Rosas.jpg" alt="" height="200" width="200"></td>
+        
+        </tr>
+        <tr>
+            <td><strong>Margarita</strong></td>
+            <td>
+                <ul>
+                    <li>Europa</li>
+                    <li>Norte de África</li>
+                    <li>Asia Central</li>
+                </ul>
+            </td>
+            <td>Planta herbácea perenne</td>
+            <td><img src="Margarita.jpg" alt="" height="200" width="200"></td>
+        </tr>
+        <tr>
+            <td><strong>Azucena</strong></td>
+            <td>
+                <ul>
+                    <li>Europa</li>
+                </ul>
+            </td>
+            <td>Planta bulbosa</td>
+            <td><img src="Azucena.webp" alt="" height="200" width="200"></td>
+
+        </tr>
+        <tr>
+            <td><strong>Tulipán</strong></td>
+            <td>
+                <ul>
+                    <li>Medio Oriente</li>
+                </ul>
+            </td>
+            <td>Planta herbácea y bulbosa</td>
+            <td><img src="Tulipan.jpg" alt="" height="200" width="200"></td>
+
+        </tr>
+        <tr>
+            <td><strong>Lavanda</strong></td>
+            <td>
+                <ul>
+                    <li>Francia</li>
+                    <li>España</li>
+                    <li>Unión Soviética</li>
+                </ul>
+            </td>
+            <td>Planta sufruticosa perenne</td>
+            <td><img src="Lavanda.webp" alt="" height="200" width="200"></td>
+        </tr>
+
+    </table>
+
+    <h3>TABLA 2</h3>
+    <table>
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th>PTS</th>
+            <th>BRN</th>
+            <th>SAU</th>
+            <th>AUS</th>
+            <th>JPN</th>
+            <th>CHN</th>
+            <th>MIA</th>
+            <th>ITA</th>
+            <th>MON</th>
+            <th>CAN</th>
+            <th>ESP</th>
+            <th>AUT</th>
+            <th>GBR</th>
+            <th>HUN</th>
+            <th>BEL</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td><img src="Max.png" alt=""></td>
+            <td><strong>Max Verstappen</strong></td>
+            <td>277</td>
+            <td>26</td>
+            <td>25</td>
+            <td>-</td>
+            <td>26</td>
+            <td>33</td>
+            <td>26</td>
+            <td>25</td>
+            <td>8</td>
+            <td>25</td>
+            <td>25</td>
+            <td>18</td>
+            <td>18</td>
+            <td>10</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td><img src="Lando.png" alt=""></td>
+            <td><strong>Lando Norris</strong></td>
+            <td>199</td>
+            <td>8</td>
+            <td>4</td>
+            <td>15</td>
+            <td>10</td>
+            <td>21</td>
+            <td>25</td>
+            <td>18</td>
+            <td>12</td>
+            <td>18</td>
+            <td>19</td>
+            <td>6</td>
+            <td>15</td>
+            <td>18</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td><img src="Charles.png" alt=""></td>
+            <td><strong>Charles Leclerc</strong></td>
+            <td>177</td>
+            <td>12</td>
+            <td>16</td>
+            <td>19</td>
+            <td>12</td>
+            <td>17</td>
+            <td>22</td>
+            <td>15</td>
+            <td>25</td>
+            <td>-</td>
+            <td>10</td>
+            <td>2</td>
+            <td>-</td>
+            <td>12</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td><img src="Oscar.png" alt=""></td>
+            <td><strong>Oscar Plastri</strong></td>
+            <td>167</td>
+            <td>4</td>
+            <td>12</td>
+            <td>12</td>
+            <td>4</td>
+            <td>6</td>
+            <td>3</td>
+            <td>12</td>
+            <td>18</td>
+            <td>10</td>
+            <td>6</td>
+            <td>25</td>
+            <td>12</td>
+            <td>25</td>
+            <td>18</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td><img src="Carlos.png" alt=""></td>
+            <td><strong>Carlos Sainz</strong></td>
+            <td>162</td>
+            <td>15</td>
+            <td> </td>
+            <td>25</td>
+            <td>15</td>
+            <td>14</td>
+            <td>14</td>
+            <td>10</td>
+            <td>15</td>
+            <td>-</td>
+            <td>8</td>
+            <td>19</td>
+            <td>11</td>
+            <td>8</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td><img src="Lewis.png" alt=""></td>
+            <td><strong>Lewis Hamilton</strong></td>
+            <td>150</td>
+            <td>6</td>
+            <td>2</td>
+            <td>-</td>
+            <td>2</td>
+            <td>9</td>
+            <td>8</td>
+            <td>8</td>
+            <td>7</td>
+            <td>13</td>
+            <td>15</td>
+            <td>15</td>
+            <td>25</td>
+            <td>15</td>
+            <td>25</td>
+        </tr>
+        
+    </table>
+
+
+</body>
+</html>
